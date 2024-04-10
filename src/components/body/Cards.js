@@ -6,7 +6,10 @@ export default function Cards(props) {
         <div className='card2'>
             <div>
                 <h5>{props.items.word}</h5>
-                <p>{props.items.description}</p>
+                <div className='container'>
+                    <p>{props.items.description}</p>
+                </div>
+                <audio src={props.items.audio} controls></audio>
             </div>
         </div>
     )

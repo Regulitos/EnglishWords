@@ -1,14 +1,15 @@
 import Header from './components/header/Header';
 import CardList from './components/body/CardList';
+import Footer from './components/footer/Footer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header/>
       <CardList/>
+      <Footer/>
     </div>
   );
 }
-//hola HELLO
 export default App;

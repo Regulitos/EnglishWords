@@ -1,0 +1,15 @@
+.info{
+    background-color: rgb(39, 39, 39);
+    color: rgb(190, 190, 190);
+}
+
+.nombres{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    margin-top: 60px;
+}

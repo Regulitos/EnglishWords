@@ -1,9 +1,11 @@
+import au_react from './react.mp3';
 
 export default [
     {   
         id:1,
         word: "REACT",
-        description: "React is a popular JavaScript library for building dynamic user interfaces, developed by Facebook. It utilizes a virtual DOM for efficient rendering and adopts a component-based architecture, promoting reusability and modular design. With its unidirectional data flow and JSX syntax, React simplifies the process of creating interactive web applications.",   
+        description: "React is a popular JavaScript library for building dynamic user interfaces, developed by Facebook. It utilizes a virtual DOM for efficient rendering and adopts a component-based architecture, promoting reusability and modular design. With its unidirectional data flow and JSX syntax, React simplifies the process of creating interactive web applications.",
+        audio: au_react,  
     },
 
     {   
