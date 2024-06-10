@@ -7,7 +7,6 @@ export default function Footer() {
             <footer class="bg-body-tertiary text-center">
                 <div class="p-4 nombres">
                     <h6>Angelo Fabian Moron</h6>
-                    <h6>Paula Andrea Montes</h6>
                     <h6>Juan David Garcia</h6>
                 </div>
 

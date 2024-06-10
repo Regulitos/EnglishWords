@@ -9,7 +9,6 @@ export default function Cards(props) {
                 <div className='container'>
                     <p>{props.items.description}</p>
                 </div>
-                <audio src={props.items.audio} controls></audio>
             </div>
         </div>
     )
