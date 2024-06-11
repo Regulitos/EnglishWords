@@ -1,15 +1,22 @@
-import React from 'react'
-import './card.css'
+import React from 'react';
+import './card.css';
 
 export default function Cards(props) {
+    const { item } = props;
+
+    if (!item) {
+        return null; // or you can return a placeholder or error message
+    }
+    const classUpperCase = item.class.toUpperCase();
     return (
-        <div className='card2'>
+        <div className={`card2 ${classUpperCase}`}>
             <div>
-                <h5>{props.items.word}</h5>
+                <p>{item.id}</p>
+                <h5>{item.word}</h5>
                 <div className='container'>
-                    <p>{props.items.description}</p>
+                    <p>{item.description}</p>
                 </div>
             </div>
         </div>
-    )
+    );
 }
