@@ -7,7 +7,7 @@ class Header extends React.Component {
       <header className="container-fluid bg-dark text-light py-3">
         <div className="row align-items-center">
           <div className="col-md-6">
-            <h1>Vocabulary</h1>
+            <h1>Tecno Vocabulary</h1>
           </div>
           <div className="col-md-6">
             <nav className="navbar navbar-expand-md navbar-dark justify-content-end nav">
